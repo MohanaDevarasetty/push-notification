@@ -1,0 +1,12 @@
+<div class="notifications">
+       <div *ngIf="notificationData.length>0">
+         <li class="dropdown-item" *ngFor="let notification of notificationData">
+           {{notification?.message}}
+         </li>
+       </div>
+    <div *ngIf="notificationData.length===0">
+     <h5 id="no-notification">
+       No Notifications Available
+     </h5>
+    </div>
+</div>
