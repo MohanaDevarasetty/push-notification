@@ -1,0 +1,22 @@
+.dropdown-item {
+  border-bottom: 1px solid lightgrey;
+  padding: 8px !important;
+  cursor: pointer;
+  white-space: normal;
+}
+.notifications {
+  white-space: normal;
+  height: 300px;
+  overflow-y: auto;
+}
+
+
+#no-notification {
+  margin-left: 17px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  vertical-align: middle;
+}
+
+
